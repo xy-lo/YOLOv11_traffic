@@ -105,9 +105,11 @@ YOLOv11_traffic/
 ## 📎 联系作者
 
 如有疑问或建议，欢迎访问我的 GitHub 主页 👇  
+
 🔗 [https://github.com/xy-lo](https://github.com/xy-lo)
 
 如果这个项目对你有所帮助，欢迎点亮 ⭐Star！你的支持是我持续优化的动力！
+
 If you find this project helpful, please consider giving it a ⭐ star — it would be greatly appreciated!
 
 ---
