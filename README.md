@@ -93,3 +93,78 @@ TrafficRules-main/
 
 感谢 YOLO 系列开源项目提供的技术支持。  
 本项目仅用于学习与研究用途，禁止用于任何商业化用途。
+
+
+# YOLOv11 交通信号检测系统
+
+该项目基于 YOLOv11 模型，实现了对交通信号灯的图像检测和分类。支持图片批量检测和实时摄像头检测模式，应用 PyTorch 和 Streamlit 实现人性化界面。
+
+---
+
+## 功能特性
+- 🚦 支持交通信号灯检测，包括红绿灯分类
+- 📺 支持图片批量检测
+- 📹 支持实时摄像头检测
+- 展示检测结果并保存
+- 🔄 简单易用的 Streamlit UI
+
+---
+
+## 启动方式
+
+1. 确保已安装依赖：
+```bash
+pip install -r requirements.txt
+```
+
+2. 运行 Streamlit 界面：
+```bash
+streamlit run GUI_G.py --server.address 0.0.0.0 --server.port 8501
+```
+
+3. 手机连同一网络后访问宿主机IP。
+例如：`http://192.168.1.101:8501`
+
+---
+
+## 代码结构
+```
+TrafficRules-main/
+├── GUI_G.py                 # Streamlit UI 主程序
+├── main.py                  # 包含 inference 与预处理逻辑
+├── inferences/
+│   ├── images/              # 待检测图片文件夹
+│   └── results/             # 检测结果保存文件夹
+├── models/                  # YOLOv11 训练模型
+└── README.md
+```
+
+---
+
+## 界面演示
+
+### 1. 主界面显示
+![主界面](https://example.com/main_interface.png)
+
+### 2. 单张图片检测
+![单张图检测](https://example.com/single_image_detection.png)
+
+### 3. 批量检测
+![批量检测](https://example.com/batch_image_detection.png)
+
+---
+
+## 连接
+- 💻 作者 GitHub: [https://github.com/your-username](https://github.com/your-username)
+- 🎡 模型基于: YOLOv11
+
+---
+
+## 本地使用注意
+- 如需手机访问 Streamlit，请使用 `--server.address 0.0.0.0` 开启，并访问宿主机IP
+- `st.set_page_config` 必须放在文件最开始处！
+
+---
+
+## 小结
+此项目适合作为交通监控系统的基础框架，支持内置模型、本地开发、快速应用。
