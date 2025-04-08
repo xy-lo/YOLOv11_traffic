@@ -118,5 +118,6 @@ If you find this project helpful, please consider giving it a ⭐ star — it wo
 
 感谢 YOLO 系列开源项目提供的技术支持。  
 本项目仅用于学习与研究用途，禁止用于任何商业化用途。
+本项目数据集来源参考：https://github.com/LIU42/TrafficRules?utm_source=chatgpt.com
 
 
